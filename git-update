@@ -1,0 +1,11 @@
+#!/bin/sh
+
+currentBranch=$(git symbolic-ref --short -q HEAD)
+
+git stash
+git checkout master
+git pull
+git checkout -
+git merge master --no-edit
+git push
+git stash pop
