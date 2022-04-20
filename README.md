@@ -2,7 +2,7 @@
 various terminal commands.
 because life is too short.
 
-[feels good](https://i.kym-cdn.com/photos/images/facebook/000/591/928/94f.png)
+![feels good](https://i.kym-cdn.com/photos/images/facebook/000/591/928/94f.png)
 
 
 1. clone repo
