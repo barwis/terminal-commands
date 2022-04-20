@@ -53,3 +53,14 @@ usage:
 
 ```git cleanup```
 
+---
+
+
+## 3. `git bs (WIP)`
+
+branch switch (bs) menu. Work in progress, lots of bugs...
+
+usage:
+
+```git bs```
+
