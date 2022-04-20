@@ -4,18 +4,17 @@ various terminal commands to make life easier
 
 1. clone repo
 
-`git clone git@github.com:barwis/terminal-commands.git folder-name`
+```
+git clone git@github.com:barwis/terminal-commands.git folder-name
+```
 
-2. add the directory to $PATH
+2. add the absolute path to directory to $PATH in your bash profile file and source it:
 
-`export PATH="/path/to/folder-name/:$PATH"`
+```
+export PATH="/path/to/folder-name/:$PATH"
+```
 
-3. source `.bashrc` / `.zshrc` / `.whateverrc` or just open new terminal tab/window
-
-Note: remember that path needs to be absolute, so no `~/` in it
-
-4. add executable priviledge to all files in the `folder-name` directory:
-
+3. add executable priviledge to all files in the `folder-name` directory:
 
 ```
 chmod +x *
@@ -43,11 +42,11 @@ usage:
 
 ---
 
-## 3. `git branch cleanup`
+## 3. `git cleanup`
 
 deletes local branches that no longer exist on remote
 
 usage:
 
-```git branch cleanup```
+```git cleanup```
 
